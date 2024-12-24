@@ -12,3 +12,6 @@ export type Product = {
   discount: Discount;
   rating: number;
 };
+
+
+
