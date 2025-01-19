@@ -13,5 +13,23 @@ export type Product = {
   rating: number;
 };
 
+export  interface Products {
+  name: string;
+  price: number;
+  description: string;
+  image: {
+      asset: {
+          _ref: string;
+          _type: string;
+      };
+  };
+  category: 'tshirt' | 'short' | 'jeans' | 'hoodie' | 'shirt';
+  discountPercent?: number;
+  isNew: boolean;
+  colors: string[];
+  sizes: string[];
+}
+
+
 
 

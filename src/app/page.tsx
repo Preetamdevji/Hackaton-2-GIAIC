@@ -6,10 +6,11 @@ import Reviews from "@/components/homepage/Reviews";
 import { Product } from "@/types/product.types";
 import { Review } from "@/types/review.types";
 
+
 export const newArrivalsData: Product[] = [
   {
     id: 1,
-    title: "T-shirt with Tape Details",
+    title: "T-shirt with Tape Detailss",
     srcUrl: "/images/pic1.png",
     gallery: ["/images/pic1.png", "/images/pic10.png", "/images/pic11.png"],
     price: 120,

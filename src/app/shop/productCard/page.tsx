@@ -2,7 +2,7 @@
 
 import React from "react";
 import ProductCard from "@/components/cart-page/ProductCard";
-import { cartsSlice } from "@/lib/features/carts/cartsSlice";
+
 
 
 const ProductCardPage = () => {
